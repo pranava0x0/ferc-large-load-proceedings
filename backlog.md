@@ -269,10 +269,11 @@ Recommended next steps, in order:
 - **Medium (2026-11-21): read the remaining positional filings outside the watched proceedings.** `node tools/curation-queue.mjs`
   counts them: PJM co-location 147 of 148 unread, governance 75, registry 59, backstop 48, MISO IRR 8, ZGIA 5, ATC 5.
   Mostly settled history; work in chunks per proceeding with the same position format.
-- **Low (2026-11-21): add a stance to the older positions outside MISO LARS.** Every LARS comment and protest
-  now carries a read stance (2026-11-21). Positions in other proceedings written before stances existed still
-  get their row's side from tenets.json or the title; where a stance is added, the build stops if tenets.json
-  disagrees.
+- **Low (2026-11-23): three positions need a human call on their stance.** Constellation's and FirstEnergy's
+  rehearing requests of the Sep 29 backstop order (ER26-3380-001) seek rehearing of specific determinations,
+  which reads as "opposes in part", but tenets.json labels both "against". Pick one and set both files. Rep.
+  Spartz's moratorium letter fits none of the stances. 19 other unstanced entries are operators' own filings
+  or point at FERC's document rather than the speaker's, and should stay unstanced.
 - **Won't fix (2026-11-21): banning "unlock" and "comprehensive" in comment summaries.** About 30 summaries use
   them, nearly all in the commenter's own sense ("a comprehensive final rule", "unlock 76 GW"). The register
   lint in validate-summaries keeps its narrower list.
