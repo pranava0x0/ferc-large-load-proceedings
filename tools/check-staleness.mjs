@@ -67,6 +67,17 @@ for (const [id, t] of Object.entries(D.tracks || {})) {
   if (t.status && isPast(t.status.asOf) && daysOld(t.status.asOf) > STALE_DAYS) {
     flag("tracks", `track "${id}" status is ${daysOld(t.status.asOf)} days old (${t.status.asOf}).`);
   }
+  // 2b) Expired framing: a status line that says something had NOT happened "through Nov 20" or "by Nov 21"
+  //     is true only as of that date. Two days on, someone should look again before the line keeps saying it.
+  const year = (t.status?.asOf || "").slice(0, 4) || String(today.getFullYear());
+  for (const sentence of (t.status?.line || "").split(/(?<=[.;])\s+/)) {
+    const m = /\b(?:not|no|nothing|none)\b.{0,120}?\b(?:yet|through|by|as of)\s+((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.? \d{1,2})\b/.exec(sentence);
+    if (!m) continue;
+    const d = new Date(`${m[1].replace(".", "")} ${year}`);
+    if (isNaN(d)) { flag("tracks", `track "${id}" status: could not read the date in "${m[0]}"; it was not checked.`); continue; }
+    const iso = `${year}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    if (daysOld(iso) >= 2) flag("tracks", `track "${id}" status says something had not happened as of ${m[1]} (${daysOld(iso)} days ago): "${sentence.trim().slice(0, 140)}". Check again and restate it.`);
+  }
 }
 
 // 3) Capture stamps.
