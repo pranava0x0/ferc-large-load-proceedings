@@ -1,9 +1,9 @@
 # backlog.md
 
-- **`data.js` is now the largest blocking asset (112 KB gzip of 178 KB).** (medium) With `comments-data.js` lazy
-  since 2026-11-02, the timeline and Discourse bodies dominate first load. Splitting them out the same way would
-  roughly halve blocking weight again, but every tab reads `D.SOURCES`, so it needs a design (a core file plus
-  per-tab files), not a move. Measure with the throttled pass in uat.md before and after.
+- **`core-data.js` is the largest blocking asset (107 KB gzip, 374 KB raw; checked 2026-11-23).** (medium)
+  `build-delivery-data` already split the News bodies into lazy `news-data.js`, and comments and the record tier
+  load lazily. Every tab still reads `D.SOURCES` from the core file, so a further cut (timeline bodies, sources
+  per tab) needs a design, not a move. Measure with the throttled pass in uat.md before and after.
 
 - **Watch the Nov 30 comment filings in ER26-3515-002 and ER27-454-000**, any ER26-3515-001 rehearing action and any actual withdrawal in ER27-330. PJM’s registry compliance and Ohio’s Nov 9 rehearing request are now on Filings. These are separate from the Nov 16 show cause deadline.
 
