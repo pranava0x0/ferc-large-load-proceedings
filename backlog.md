@@ -4,33 +4,8 @@
   since 2026-11-02, the timeline and Discourse bodies dominate first load. Splitting them out the same way would
   roughly halve blocking weight again, but every tab reads `D.SOURCES`, so it needs a design (a core file plus
   per-tab files), not a move. Measure with the throttled pass in uat.md before and after.
-- **Read every docket in one in-page call.** (low) eLibrary's sheet comes from a POST to
-  `/eLibraryWebAPI/api/Docket/GetSingleDocketSheet` that works inside the logged-in tab. Capture the request body
-  once (hook XHR, then run a new docket search in the SPA) and `tools/elibrary-sweep.js` could fetch all ~20
-  sheets in one call instead of ~20 navigations.
-
-- **Automate the `-001` and companion-docket sweep.** (medium) `tools/elibrary-sweep.js` takes one docket per
-  paste. The Sep 21 undercount (five orders, not four; issues.md 2026-10-19) happened on a sweep that had the
-  `-001` rule but applied it by hand. Give the extractor a list (`EL26-67-000`, `EL26-67-001`, …, `ER26-3380`,
-  `EL26-108`, `ER26-3515`) and have it navigate and accumulate across all of them in one run.
 
 - **Watch the Nov 30 comment filings in ER26-3515-002 and ER27-454-000**, any ER26-3515-001 rehearing action and any actual withdrawal in ER27-330. PJM’s registry compliance and Ohio’s Nov 9 rehearing request are now on Filings. These are separate from the Nov 16 show cause deadline.
-
-- **Consolidate the emergent `topic:` vocabulary.** (medium) 673 distinct topic bins across 268 files,
-  with obvious near-synonyms: `topic:state-authority` (7) vs `topic:state-jurisdiction` (3),
-  `topic:tariff-transparency` (12) vs `topic:transparency` (5) vs `topic:queue-transparency` (4),
-  `topic:cost-allocation` (5) vs `topic:cost-causation` (3). The by-issue index only surfaces topics
-  appearing in 3+ letters, so the long tail is invisible to readers while still fragmenting the ones
-  that are surfaced. Merge the synonym clusters into a controlled list, keep genuinely one-off topics
-  as they are, and record the mapping so the merge is auditable.
-
-- **Teach `check-staleness.mjs` to catch expired FRAMING, not just expired dates.** (medium) It flags a
-  passed `kind: "deadline"` event, but not an event whose date is still in the future while its subject
-  has already resolved. Two shipped that way this session: an abeyance event written in the conditional
-  ("any abeyance would push the deadline later") months after all six were granted, and a response
-  deadline whose derived date the abeyance orders had replaced. A cheap heuristic: flag any event whose
-  body contains conditional markers ("would", "if requested", "could", "is expected to") when a later
-  event on the same track describes the same subject as done.
 
 - **idea (2026-07-14, LOW) — let the "from record to rule" strip collapse.** UAT: the strip is always
   expanded (~260px, ~0.3 viewport) above the stance groups, so a reader who just wants the letters scrolls
@@ -271,8 +246,6 @@ Recommended next steps, in order:
   built for. Currently described under `context` anyway to avoid a mid-refresh schema change; if it
   keeps generating docket-level developments (protests, a FERC order), promote it to a sixth track
   with its own venue and next-step clock.
-
-- **Medium** · Make `tools/extract-abeyance-docs.py` merge into the existing manifest instead of regenerating it, and add the `-001` sub-dockets to `tools/elibrary-sweep.js` (2026-10-08).
 
 ## From the 2026-11-09 refresh (Filings and Commissioners tabs)
 
