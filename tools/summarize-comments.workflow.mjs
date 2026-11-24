@@ -23,7 +23,7 @@ log(`summarizing ${accs.length} comments (extract ${EXTRACT_MODEL} + self-critiq
 const VOCAB = `  aq:<key> — DOE ANOPR comment-period questions: jurisdiction, threshold, jointstudy, deposits, hybridrights, protection, expedited, upgradecost
   pr:<key> — June show-cause-order reform principles: study, cost, colo, flex, proximate
   rg:<key> — show-cause-order regions: pjm, miso, spp, caiso, isone, nyiso
-  topic:<slug> — an emergent theme the three lenses miss (kebab-case), e.g. topic:tariff-transparency`
+  topic:<slug> — an emergent theme the three lenses miss (kebab-case), e.g. topic:transparency; reuse a key in sources/comments/topic-merges.json before inventing a synonym`
 const STYLE = `Plain, direct prose in name/description/concern/overall_summary: no AI-register words (delve, leverage, robust, seamless, "it's worth noting"), no em-dashes, write ranges as "to". Quotes are exempt — copy them as written.`
 
 const EXTRACT_SCHEMA = {

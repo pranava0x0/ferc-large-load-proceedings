@@ -33,7 +33,7 @@
       "concern": "The severity of interconnection problems depends on regional market structure, not a uniform national failure",
       "bins": [
         "aq:jurisdiction",
-        "topic:regional-variation"
+        "topic:regional-flexibility"
       ],
       "page": 3
     },
@@ -83,7 +83,7 @@
       "concern": "Southeast vertically integrated utilities handle large load interconnection without the queue or cost problems seen in some RTOs",
       "bins": [
         "topic:state-model-success",
-        "topic:regional-variation"
+        "topic:regional-flexibility"
       ],
       "page": 7
     },
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "key": "topic:regional-variation",
+      "key": "topic:regional-flexibility",
       "name": "Challenges Vary by Region",
       "stance": "neutral",
       "description": "The filing documents that large load interconnection difficulties are concentrated in certain RTO and ISO footprints and are not a uniform national problem. Southeast vertically integrated utilities and MISO South have managed large load additions without the queue backlogs seen elsewhere, pointing to market structure as the key variable.",

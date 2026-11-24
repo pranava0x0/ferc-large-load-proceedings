@@ -32,7 +32,7 @@
       "concern": "Federal-state coordination and transparency are essential regardless of which reform path is chosen",
       "bins": [
         "pr:cost",
-        "topic:federal-state-coordination"
+        "topic:cooperative-federalism"
       ],
       "page": 4
     },
@@ -41,8 +41,8 @@
       "text": "States remain primarily responsible for designing retail tariffs and customer-specific arrangements intended to ensure that large loads bear an appropriate share of system costs. Those efforts are more effective when states have clear visibility into how FERC-jurisdictional transmission costs are incurred, allocated, and flowed through to load-serving entities and retail customers.",
       "concern": "State retail tools work best when states can clearly trace FERC-approved transmission costs to large loads",
       "bins": [
-        "topic:federal-state-coordination",
-        "topic:tariff-transparency"
+        "topic:cooperative-federalism",
+        "topic:transparency"
       ],
       "page": 4
     },
@@ -72,7 +72,7 @@
       "text": "The federal role is therefore not necessarily to upend existing transmission pricing policies. In many cases, the more important federal task may be to ensure that the FERC-jurisdictional transmission pricing framework works effectively with state retail reforms.",
       "concern": "Federal reform should complement rather than replace state retail large load tariffs",
       "bins": [
-        "topic:federal-state-coordination",
+        "topic:cooperative-federalism",
         "aq:jurisdiction"
       ],
       "page": 59
@@ -83,7 +83,7 @@
       "concern": "Cross-border cost allocation is beyond the reach of state retail tools and requires federal action",
       "bins": [
         "aq:jurisdiction",
-        "topic:federal-state-coordination"
+        "topic:cooperative-federalism"
       ],
       "page": 59
     },
@@ -104,8 +104,8 @@
       "bins": [
         "pr:cost",
         "pr:study",
-        "topic:federal-state-coordination",
-        "topic:tariff-transparency"
+        "topic:cooperative-federalism",
+        "topic:transparency"
       ],
       "page": 59
     },
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "key": "topic:federal-state-coordination",
+      "key": "topic:cooperative-federalism",
       "name": "Federal-State Alignment Gap",
       "stance": "support",
       "description": "ECA argues that improved federal-state coordination, at a more granular level than currently exists, is critical regardless of which reform path is chosen. States need clear visibility into how FERC-approved transmission costs are incurred, allocated, and flow to LSEs and retail customers so state retail tariffs can do their job effectively.",
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Cost Transparency for States",
       "stance": "support",
       "description": "ECA argues that state retail large load tariffs can only protect customers if states have clear visibility into which FERC-approved transmission costs are associated with large loads and how those costs flow through to LSEs and retail customers. Improved transparency is a prerequisite for effective state-level cost assignment.",

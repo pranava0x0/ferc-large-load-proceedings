@@ -22,7 +22,7 @@
       "concern": "Transmission planning and charges must protect existing customer affordability",
       "bins": [
         "pr:cost",
-        "topic:customer-affordability"
+        "topic:ratepayer-protection"
       ],
       "page": 2
     },
@@ -104,7 +104,7 @@
       "bins": [
         "aq:jurisdiction",
         "pr:cost",
-        "topic:cost-causation"
+        "topic:cost-allocation"
       ],
       "page": 4
     },
@@ -115,7 +115,7 @@
       "bins": [
         "pr:cost",
         "pr:colo",
-        "topic:cost-causation"
+        "topic:cost-allocation"
       ],
       "page": 20
     },
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "key": "topic:customer-affordability",
+      "key": "topic:ratepayer-protection",
       "name": "Protect Existing Customer Rates",
       "stance": "support",
       "description": "PSEG repeatedly stresses that large load integration must not raise costs for existing customers. It links affordability directly to cost causation principles and efficient transmission planning.",
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "key": "topic:cost-causation",
+      "key": "topic:cost-allocation",
       "name": "Cost Causation Applies Throughout",
       "stance": "support",
       "description": "PSEG invokes cost causation as the organizing principle for both transmission charges and upgrade cost allocation. It cites Commission precedent establishing that charges must track a customer's actual use and that system-wide upgrade benefits justify socialization while project-specific costs should be directly assigned.",

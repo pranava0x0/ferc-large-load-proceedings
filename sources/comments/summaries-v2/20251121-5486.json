@@ -65,7 +65,7 @@
       "text": "FERC should only exert its jurisdiction on large load interconnection when states have failed to act.",
       "concern": "FERC should act only as backstop when states fail",
       "bins": [
-        "topic:federalism",
+        "topic:cooperative-federalism",
         "aq:jurisdiction"
       ],
       "page": null
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "key": "topic:federalism",
+      "key": "topic:cooperative-federalism",
       "name": "Cooperative federalism approach",
       "stance": "support",
       "description": "FERC should honor cooperative federalism principles by using federal jurisdiction only as a backstop when states fail to act, consistent with Congress's intent in granting limited FERC siting authority under Section 216 of the Federal Power Act.",

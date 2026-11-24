@@ -133,7 +133,7 @@
       "text": "Bundled retail rates that include transmission should be preserved.",
       "concern": "Preserve bundled retail rates that include transmission",
       "bins": [
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 7
     },
@@ -142,7 +142,7 @@
       "text": "statutory consumer advocates need to retain this tool to ensure they can fully perform their obligation to review and audit monopoly utility costs.",
       "concern": "Consumer advocates need bundled rates to audit transmission costs",
       "bins": [
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 7
     },
@@ -151,7 +151,7 @@
       "text": "issuing final rules prior to those guidelines being finalized would be counterproductive.",
       "concern": "FERC should wait for NERC large-load reliability guidelines",
       "bins": [
-        "topic:nerc-reliability"
+        "topic:nerc-standards"
       ],
       "page": 8
     }
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Preserve bundled retail rates",
       "stance": "support",
       "description": "Bundled retail rates that include transmission should be preserved as they were under Order No. 888. The Public Staff says this gives consumer advocates the transparency they need to review and audit monopoly transmission costs as those costs rise.",
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "key": "topic:nerc-reliability",
+      "key": "topic:nerc-standards",
       "name": "Wait for NERC guidelines",
       "stance": "support",
       "description": "The Public Staff agrees all NERC reliability standards must be met and notes NERC's Large Loads Task Force is nearing completion of draft guidelines. It argues issuing final rules before those guidelines are finalized would be counterproductive.",

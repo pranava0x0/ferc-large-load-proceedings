@@ -132,7 +132,7 @@
       "concern": "States want to keep authority to fund VPP and demand-side programs tied to large loads",
       "bins": [
         "aq:jurisdiction",
-        "topic:state-federal-jurisdiction"
+        "topic:ferc-jurisdiction"
       ],
       "page": 15
     },
@@ -142,7 +142,7 @@
       "concern": "FERC VPP eligibility rules would not preempt state retail VPP programs",
       "bins": [
         "aq:jurisdiction",
-        "topic:state-federal-jurisdiction"
+        "topic:ferc-jurisdiction"
       ],
       "page": 15
     },
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "key": "topic:state-federal-jurisdiction",
+      "key": "topic:ferc-jurisdiction",
       "name": "State and Federal Jurisdictional Coexistence",
       "stance": "neutral",
       "description": "Pew argues that making VPPs eligible under FERC-jurisdictional interconnection tariffs does not preempt or override state retail VPP programs. The two frameworks can run in parallel as long as commitments under each are consistent and FERC rules prevent double-counting of load reduction in the interconnection study.",

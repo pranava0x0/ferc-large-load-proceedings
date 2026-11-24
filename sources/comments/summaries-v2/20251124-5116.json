@@ -124,7 +124,7 @@
       "bins": [
         "pr:cost",
         "aq:upgradecost",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 12
     },
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Upgrade Cost Transparency",
       "stance": "neutral",
       "description": "Kiesling identifies upgrade cost assignment as the least transparent part of the interconnection process, producing outcomes that vary by orders of magnitude across similarly sized projects due to queue position rather than actual marginal impact.",

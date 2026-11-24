@@ -142,7 +142,7 @@
       "text": "Microsoft is supportive of transition plans that mitigate existing risk and do not create new regulatory risk or uncertainty for projects. A transition plan should provide regulatory stability for large loads that are already under study; large loads for which the study process has already been completed, payments made, and construction commenced; and for facilities that are phasing in or are fully operational.",
       "concern": "Wants transition plans that protect in-progress and operating projects without adding new risk.",
       "bins": [
-        "topic:transition-plan"
+        "topic:transition-period"
       ],
       "page": 12
     },
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "key": "topic:transition-plan",
+      "key": "topic:transition-period",
       "name": "Transition plan stability",
       "stance": "support",
       "description": "Microsoft supports transition plans that mitigate existing risk without creating new regulatory uncertainty, covering projects under study, those already built or paid for, and facilities phasing in or operating.",

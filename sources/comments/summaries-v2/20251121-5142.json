@@ -30,7 +30,7 @@
       "concern": "Federal preemption of state authority over interconnection requires consultation and ratepayer protection",
       "bins": [
         "pr:proximate",
-        "topic:state-federal-jurisdiction"
+        "topic:ferc-jurisdiction"
       ],
       "page": 1
     },
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "key": "topic:state-federal-jurisdiction",
+      "key": "topic:ferc-jurisdiction",
       "name": "Federal preemption concerns",
       "stance": "oppose",
       "description": "The proposed rule would transfer large load interconnection authority from states to FERC. NCSL requires early and ongoing state consultation in rule development to ensure individual and small ratepayers are protected.",

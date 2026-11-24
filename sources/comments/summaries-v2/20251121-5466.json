@@ -134,7 +134,7 @@
       "concern": "Unilateral functionalization decisions by the utility lack transparency and regulatory review.",
       "bins": [
         "pr:cost",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 22
     },
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Transparent functionalization decisions",
       "stance": "support",
       "description": "ComEd decides on a case-by-case basis whether to classify new facilities as distribution or transmission, with no external oversight. ELPC argues those decisions should be made with greater transparency and subject to regulatory review, as they determine which customers bear the resulting costs.",

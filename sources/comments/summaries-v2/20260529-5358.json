@@ -22,7 +22,7 @@
       "text": "When left unregulated, these practices force local ratepayers to subsidize infrastructure upgrades while shouldering the long-term health, financial, and environmental liabilities.",
       "concern": "Ratepayers bear costs and liabilities that operators should pay",
       "bins": [
-        "topic:cost-responsibility"
+        "topic:cost-allocation"
       ],
       "page": null
     },
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "key": "topic:cost-responsibility",
+      "key": "topic:cost-allocation",
       "name": "Shifting infrastructure costs to ratepayers",
       "stance": "oppose",
       "description": "The filing argues that without regulation, data center operators shift infrastructure upgrade costs and long-term liabilities to local ratepayers and communities.",

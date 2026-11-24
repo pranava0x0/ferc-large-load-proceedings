@@ -91,7 +91,7 @@
       "concern": "Tariffs should disclose deposit timelines and study schedules clearly",
       "bins": [
         "aq:deposits",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 7
     },
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Tariff publication and study timelines",
       "stance": "support",
       "description": "ENGIE calls for transmission providers to publish tariffs with clear timelines for deposit requirements, interconnection study schedules, and completion deadlines so developers and load customers can plan around them.",

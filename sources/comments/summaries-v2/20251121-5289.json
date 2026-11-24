@@ -154,7 +154,7 @@
       "concern": "New rules need a coordinated transition period that aligns with existing interconnection and planning processes",
       "bins": [
         "pr:study",
-        "topic:transition"
+        "topic:transition-period"
       ],
       "page": 22
     }
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "key": "topic:transition",
+      "key": "topic:transition-period",
       "name": "Coordinated transition period required",
       "stance": "support",
       "description": "NRECA calls for a reasonable, orderly transition that coordinates new large-load rules with ongoing generator interconnection, transmission service, and planning processes. Regional flexibility in treating existing load interconnection studies already under way is also requested.",

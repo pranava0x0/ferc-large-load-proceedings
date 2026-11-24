@@ -123,7 +123,7 @@
       "bins": [
         "aq:jointstudy",
         "pr:study",
-        "topic:study-transparency"
+        "topic:transparency"
       ],
       "page": 13
     },
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "key": "topic:study-transparency",
+      "key": "topic:transparency",
       "name": "Transparent Study Requirements",
       "stance": "support",
       "description": "Constellation asks FERC to require transmission providers to clearly define the studies applicable to LCEP requests. Without clear and transparent study rules, the speed benefit of siting at an already-studied POI will be lost to procedural delays.",

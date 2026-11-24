@@ -140,7 +140,7 @@
       "bins": [
         "aq:jurisdiction",
         "pr:flex",
-        "topic:state-retail-authority"
+        "topic:state-authority"
       ],
       "page": 15
     },
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "key": "topic:state-retail-authority",
+      "key": "topic:state-authority",
       "name": "State authority over retail supply",
       "stance": "support",
       "description": "Entergy argues that demand response, curtailment, and flexible load arrangements are retail service matters under state jurisdiction. FERC should not use a load interconnection rule to displace state regulatory decisions about reliable retail supply in bundled-service territories.",

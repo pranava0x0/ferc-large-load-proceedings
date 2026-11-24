@@ -106,7 +106,7 @@
       "concern": "Large loads should pay directly for interstate grid improvements and GETs",
       "bins": [
         "pr:cost",
-        "topic:grid-enhancing-technologies",
+        "topic:advanced-transmission-tech",
         "topic:direct-payment"
       ],
       "page": 4
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "key": "topic:grid-enhancing-technologies",
+      "key": "topic:advanced-transmission-tech",
       "name": "Grid Enhancing Technologies integration",
       "stance": "support",
       "description": "The ANOPR should facilitate deployment of Grid Enhancing Technologies such as long duration batteries and enable large loads to pay directly for these interstate grid improvements rather than recovering costs through retail tariff mechanisms.",

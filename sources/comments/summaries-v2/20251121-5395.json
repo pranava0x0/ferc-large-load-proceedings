@@ -44,7 +44,7 @@
       "bins": [
         "aq:upgradecost",
         "pr:cost",
-        "topic:cost-causation"
+        "topic:cost-allocation"
       ],
       "page": 2
     },
@@ -95,7 +95,7 @@
       "concern": "Direct cost assignment aligns with cost-causation ratemaking precedent",
       "bins": [
         "pr:cost",
-        "topic:cost-causation"
+        "topic:cost-allocation"
       ],
       "page": 5
     },
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "key": "topic:cost-causation",
+      "key": "topic:cost-allocation",
       "name": "Cost-causation ratemaking principle",
       "stance": "support",
       "description": "SMECO grounds its cost-allocation position in long-standing cost-causation principles requiring that costs be allocated commensurate with benefits derived.",

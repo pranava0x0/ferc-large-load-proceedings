@@ -51,7 +51,7 @@
       "concern": "LCEP without structural safeguards violates FPA open-access principles",
       "bins": [
         "topic:open-access-monopoly",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 3
     },
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Tariff Rules Must Be Transparent",
       "stance": "support",
       "description": "Maven calls for LCEP access rules to be open, transparent, and independently administered by the Transmission Provider, so that any entity meeting objective criteria can qualify on equal terms. The incumbent's consent cannot function as a veto or a toll.",

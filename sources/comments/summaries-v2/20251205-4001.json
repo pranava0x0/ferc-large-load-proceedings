@@ -146,7 +146,7 @@
       "text": "FERC should provide clarity on jurisdictional boundaries between federal and state regulation of these issues.",
       "concern": "Jurisdictional clarity between FERC and states",
       "bins": [
-        "topic:jurisdiction"
+        "topic:ferc-jurisdiction"
       ],
       "page": 3
     },
@@ -155,7 +155,7 @@
       "text": "If FERC asserts jurisdiction but declines to institute strong protections, such as requiring transmission providers to collect large security deposits from data center interconnection applicants or increasing other financial commitments from such applicants, it must not preempt states from imposing their own protections under their retail regulatory authorities.",
       "concern": "States retain right to impose protections if FERC is weak",
       "bins": [
-        "topic:jurisdiction"
+        "topic:ferc-jurisdiction"
       ],
       "page": 3
     },
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "key": "topic:jurisdiction",
+      "key": "topic:ferc-jurisdiction",
       "name": "Jurisdictional clarity and state authority",
       "stance": "mixed",
       "description": "Committee seeks clear federal-state boundaries but insists states retain authority to impose retail protections. If FERC fails to institute strong protections like deposit requirements, states must not be preempted from protecting their ratepayers.",

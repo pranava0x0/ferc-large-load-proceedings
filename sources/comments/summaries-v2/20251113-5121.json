@@ -54,7 +54,7 @@
       "bins": [
         "pr:study",
         "pr:flex",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 2
     },
@@ -65,7 +65,7 @@
       "bins": [
         "pr:study",
         "pr:flex",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 2
     },
@@ -85,7 +85,7 @@
       "concern": "Requests public posting of study schedules and milestones to improve accountability",
       "bins": [
         "pr:study",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 2
     },
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "OATT Clarity for Flexible Loads",
       "stance": "support",
       "description": "DEC urges FERC to add clear procedures to OATTs for modeling and coordinating with flexible large loads, and to require public posting of study timelines and milestones, improving predictability without creating entirely new service categories.",

@@ -43,7 +43,7 @@
       "concern": "Studies should specify clear, bounded flexibility requirements so operators know what commitments to make",
       "bins": [
         "pr:study",
-        "topic:study-transparency"
+        "topic:transparency"
       ],
       "page": 4
     },
@@ -128,7 +128,7 @@
       "concern": "FERC has clear precedent and authority to mandate equal treatment of demand flexibility",
       "bins": [
         "aq:jurisdiction",
-        "topic:ferc-authority"
+        "topic:ferc-jurisdiction"
       ],
       "page": 7
     }
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "key": "topic:study-transparency",
+      "key": "topic:transparency",
       "name": "Publish Clear Study Constraint Data",
       "stance": "support",
       "description": "AEMA and supporting commenters argue that transmission providers must publish specific constraint information so customers can develop targeted flexibility solutions. Without visibility into binding constraints, customers cannot design cost-effective alternatives, leading to delayed interconnections and an overbuilt system.",
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "key": "topic:ferc-authority",
+      "key": "topic:ferc-jurisdiction",
       "name": "Commission Jurisdiction Is Clear",
       "stance": "support",
       "description": "AEMA argues that FERC's existing precedent on demand response and distributed energy resources establishes clear authority to mandate equal treatment for demand-side flexibility in the interconnection process, dismissing any hesitation about jurisdictional reach.",

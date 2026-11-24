@@ -62,7 +62,7 @@
       "concern": "When GETs are rejected, a public record of the cost comparison must be provided",
       "bins": [
         "pr:study",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 5
     },
@@ -102,7 +102,7 @@
       "concern": "The NOPR should prioritize load-impact transparency",
       "bins": [
         "pr:study",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 8
     },
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Transparent load and study data",
       "stance": "support",
       "description": "The filers support requiring public reporting on load forecasting assumptions, transmission study methods, and implementation schedules for large load interconnection requests. When GETs are not selected, a public cost comparison must accompany the decision so customers, states, and FERC can evaluate whether traditional upgrades are justified.",

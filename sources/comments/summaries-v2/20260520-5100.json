@@ -32,7 +32,7 @@
       "concern": "Asks the Commission to preserve state jurisdiction over retail large-load connections",
       "bins": [
         "aq:jurisdiction",
-        "topic:state-jurisdiction"
+        "topic:state-authority"
       ],
       "page": 1
     },
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "key": "topic:state-jurisdiction",
+      "key": "topic:state-authority",
       "name": "Bundled retail service authority",
       "stance": "support",
       "description": "Southern Companies stress that retail connection terms are inextricably embedded in their bundled rate mechanisms under state oversight, which they want preserved.",

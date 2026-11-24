@@ -92,7 +92,7 @@
       "concern": "Tariffs do not give utilities a path to recover costs of flexibility-enabling software and controls",
       "bins": [
         "topic:utility-incentive-bias",
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 6
     },
@@ -112,7 +112,7 @@
       "text": "encouraging or requiring transparent, hosting-capacity-style data for load so that customers can see where flexible operation and on-site resources can meaningfully reduce upgrade needs and select sites accordingly.",
       "concern": "Hosting-capacity-style load data would help customers choose sites where flexibility reduces upgrade costs",
       "bins": [
-        "topic:tariff-transparency",
+        "topic:transparency",
         "pr:proximate"
       ],
       "page": 7
@@ -123,7 +123,7 @@
       "concern": "Speed-to-power should be a core reliability and competitiveness metric, not just a convenience measure",
       "bins": [
         "aq:expedited",
-        "topic:national-competitiveness"
+        "topic:ai-competitiveness"
       ],
       "page": 7
     },
@@ -133,7 +133,7 @@
       "concern": "Asks FERC to require RTOs to publish interconnection timeline statistics so reform progress can be measured",
       "bins": [
         "pr:study",
-        "topic:national-competitiveness"
+        "topic:ai-competitiveness"
       ],
       "page": 8
     }
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Transparent curtailment and load data",
       "stance": "support",
       "description": "Critical Loop asks FERC to signal that transmission providers and RTOs must present flexibility requirements in clear, comparable terms so customers and state regulators can evaluate proposed tariffs. This includes expressing curtailment in duration, magnitude, or frequency and publishing hosting-capacity-style load data.",
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "key": "topic:national-competitiveness",
+      "key": "topic:ai-competitiveness",
       "name": "Speed-to-power as competitiveness metric",
       "stance": "support",
       "description": "Critical Loop urges FERC to treat speed-to-power as a core reliability and national-competitiveness metric alongside reliability, adequacy, and affordability. Delays risk driving AI and manufacturing investment to other jurisdictions with long-term implications for national security and economic leadership.",

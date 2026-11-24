@@ -12,7 +12,7 @@
       "concern": "cost shift to existing ratepayers from data center interconnection",
       "bins": [
         "pr:cost",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 2
     },
@@ -23,7 +23,7 @@
       "bins": [
         "pr:cost",
         "pr:study",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 2
     },
@@ -114,7 +114,7 @@
       "bins": [
         "aq:expedited",
         "pr:flex",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 8
     },
@@ -134,7 +134,7 @@
       "concern": "prohibit socializing upgrade costs without demonstrated shared benefit",
       "bins": [
         "pr:cost",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 10
     },
@@ -144,7 +144,7 @@
       "concern": "consumer protection from costs driven by data center interconnection",
       "bins": [
         "pr:cost",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 10
     },
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "key": "topic:consumer-protection",
+      "key": "topic:ratepayer-protection",
       "name": "Ratepayer Protection Principles",
       "stance": "support",
       "description": "The UIU emphasizes throughout that data center and large-load interconnection must not shift infrastructure costs to residential and small-business ratepayers. Planning transparency, open participation, and strict cost-causation rules are the primary safeguards.",

@@ -95,7 +95,7 @@
       "text": "Invenergy urges the Commission, while it undertakes these reforms, to adopt a transition process that does not prejudice existing large load interconnection customers that have already spent time and committed resources navigating existing state interconnection processes.",
       "concern": "Transition rules should protect customers already deep in existing processes",
       "bins": [
-        "topic:transition-protection"
+        "topic:transition-period"
       ],
       "page": 6
     },
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "key": "topic:transition-protection",
+      "key": "topic:transition-period",
       "name": "Protect Customers in Existing Processes",
       "stance": "support",
       "description": "Invenergy asks that any transition to new interconnection rules not penalize large load customers that have already invested time and money navigating existing state processes. Transition rules should grandfather or accommodate those with prior commitments.",

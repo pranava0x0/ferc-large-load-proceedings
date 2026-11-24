@@ -165,7 +165,7 @@
       "text": "Tract agrees that there must be a plan to implement the proposed reforms that recognize the time, capital, and effort spent on requests that are already being studied for interconnection. Negatively affecting those existing requests not only wastes individual requestor's time, capital, and effort, but could also negatively impact all large load requests by causing cascading re-studies that delay or increase the costs of other large load requests.",
       "concern": "Transition plan must protect in-flight requests from re-study burdens",
       "bins": [
-        "topic:transition",
+        "topic:transition-period",
         "pr:study"
       ],
       "page": 9
@@ -328,7 +328,7 @@
       ]
     },
     {
-      "key": "topic:transition",
+      "key": "topic:transition-period",
       "name": "Protect in-flight requests during transition",
       "stance": "support",
       "description": "Tract supports a transition plan that gives existing interconnection applicants the option to benefit from new rules without being required to re-study or bear added costs, avoiding cascading delays.",

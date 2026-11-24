@@ -84,7 +84,7 @@
       "bins": [
         "aq:upgradecost",
         "pr:cost",
-        "topic:jurisdiction"
+        "topic:ferc-jurisdiction"
       ],
       "page": 6
     },
@@ -106,7 +106,7 @@
       "bins": [
         "aq:upgradecost",
         "pr:cost",
-        "topic:jurisdiction"
+        "topic:ferc-jurisdiction"
       ],
       "page": 8
     },
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "key": "topic:jurisdiction",
+      "key": "topic:ferc-jurisdiction",
       "name": "FERC vs State Retail Jurisdiction",
       "stance": "neutral",
       "description": "FirstEnergy identifies a core jurisdictional problem: data center customers are retail customers regulated by states, not FERC. Direct cost assignment by FERC would intrude on state retail rate authority and invite years of appellate challenge. The solution is wholesale rolled-in rates paired with state-level mechanisms.",

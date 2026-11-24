@@ -12,7 +12,7 @@
       "concern": "ANOPR poses cost and oversight risks to residential consumers",
       "bins": [
         "pr:cost",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 3
     },
@@ -224,7 +224,7 @@
       "concern": "overarching principle that consumers must not subsidize speculative large-load development",
       "bins": [
         "pr:cost",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 14
     }
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "key": "topic:consumer-protection",
+      "key": "topic:ratepayer-protection",
       "name": "Consumer protection as core FERC duty",
       "stance": "support",
       "description": "OCC argues that FERC's primary duty under the FPA is just, reasonable, and non-discriminatory rates, and that the ANOPR's focus on facilitating AI innovation and industrial expansion risks reframing that mission away from consumer protection.",

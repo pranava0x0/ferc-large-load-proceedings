@@ -113,7 +113,7 @@
       "bins": [
         "aq:upgradecost",
         "pr:cost",
-        "topic:crediting-design"
+        "topic:crediting-mechanism"
       ],
       "page": 23
     },
@@ -124,7 +124,7 @@
       "bins": [
         "aq:upgradecost",
         "pr:cost",
-        "topic:crediting-design"
+        "topic:crediting-mechanism"
       ],
       "page": 24
     },
@@ -163,7 +163,7 @@
       "concern": "Protections must apply to loads currently under study, not just future interconnections",
       "bins": [
         "pr:cost",
-        "topic:transition-plan"
+        "topic:transition-period"
       ],
       "page": 31
     }
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "key": "topic:crediting-design",
+      "key": "topic:crediting-mechanism",
       "name": "Crediting Must Fit Large Load Risk",
       "stance": "neutral",
       "description": "TAPS warns that copying the generator interconnection crediting mechanism would fail to protect other customers from stranded costs because that mechanism was designed as a financing tool, not a cost-causation safeguard. Any credit offset must be tailored to the risk that a data center does not sustain expected demand.",
@@ -330,7 +330,7 @@
       ]
     },
     {
-      "key": "topic:transition-plan",
+      "key": "topic:transition-period",
       "name": "Protect Customers in Current Queue Now",
       "stance": "support",
       "description": "TAPS insists protections must apply to large load interconnections already under study and earlier network upgrades already governed by retail stranded-cost provisions, not only future loads covered by a new standard rule.",

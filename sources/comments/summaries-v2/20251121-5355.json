@@ -182,7 +182,7 @@
       "concern": "In-progress interconnections should be grandfathered from any new rule",
       "bins": [
         "aq:expedited",
-        "topic:transition-grandfathering"
+        "topic:grandfathering"
       ],
       "page": 33
     }
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "key": "topic:transition-grandfathering",
+      "key": "topic:grandfathering",
       "name": "Transition Period and Grandfathering",
       "stance": "support",
       "description": "If any rule is adopted, the filer requests at minimum one year before effectiveness, and grandfathering for all loads currently being studied or interconnected, consistent with how the Commission handled transitions in Order No. 2023.",

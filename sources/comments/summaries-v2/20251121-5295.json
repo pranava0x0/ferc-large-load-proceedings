@@ -117,7 +117,7 @@
       "concern": "RTOs need flexibility to tailor large load interconnection rules to regional conditions",
       "bins": [
         "aq:jurisdiction",
-        "topic:regional-variation"
+        "topic:regional-flexibility"
       ],
       "page": 9
     },
@@ -127,7 +127,7 @@
       "concern": "FERC should apply independent entity variation standard when evaluating RTO compliance",
       "bins": [
         "aq:jurisdiction",
-        "topic:regional-variation"
+        "topic:regional-flexibility"
       ],
       "page": 10
     }
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "key": "topic:regional-variation",
+      "key": "topic:regional-flexibility",
       "name": "Independent entity variation standard",
       "stance": "support",
       "description": "DWR asks FERC to use the independent entity variation standard for evaluating RTO and ISO implementation plans, consistent with how FERC handled generator interconnection reform, to give regions flexibility and recognize ongoing regional efforts.",

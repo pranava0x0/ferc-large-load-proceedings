@@ -121,7 +121,7 @@
       "concern": "Chevron asks FERC to coordinate with states without letting state concerns block action",
       "bins": [
         "aq:jurisdiction",
-        "topic:federal-state-coordination"
+        "topic:cooperative-federalism"
       ],
       "page": 8
     },
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "key": "topic:federal-state-coordination",
+      "key": "topic:cooperative-federalism",
       "name": "Coordinate with states; do not cede to them",
       "stance": "mixed",
       "description": "Chevron acknowledges state jurisdictional concerns, points to the Tri-State order as evidence FERC already respects retail boundaries, and suggests using the Federal-State Current Issues Collaborative and section 209 joint board mechanisms. However, it insists FERC must still take decisive action within its own purview and not let state objections block progress.",

@@ -42,7 +42,7 @@
       "concern": "Reactive project-by-project interconnection planning produces inferior outcomes compared to proactive system-wide planning",
       "bins": [
         "pr:study",
-        "topic:proactive-transmission-planning"
+        "topic:transmission-planning"
       ],
       "page": 20
     },
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "key": "topic:proactive-transmission-planning",
+      "key": "topic:transmission-planning",
       "name": "Proactive System-Wide Planning",
       "stance": "support",
       "description": "The filers argue that reactive, project-by-project interconnection planning will not identify the most cost-effective investments. Long-term proactive planning that coordinates transmission, generation interconnection, and load needs is necessary for a reliable and affordable grid.",
