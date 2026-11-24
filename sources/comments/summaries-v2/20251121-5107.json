@@ -11,7 +11,7 @@
       "text": "Rewiring America encourages the Commission to remain mindful of the Federal Power Act's cooperative federalism framework. FERC should set floors, not ceilings, and any rules adopted in this proceeding should avoid preempting or impeding state authority.",
       "concern": "Regulatory design should preserve state authority",
       "bins": [
-        "topic:federalism"
+        "topic:cooperative-federalism"
       ],
       "page": 1
     },
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "key": "topic:federalism",
+      "key": "topic:cooperative-federalism",
       "name": "Preserve state authority",
       "stance": "neutral",
       "description": "FERC rules should set regulatory floors, not ceilings, preserving state authority and avoiding preemption of state programs and investments.",

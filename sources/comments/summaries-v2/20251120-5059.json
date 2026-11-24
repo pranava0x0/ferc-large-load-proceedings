@@ -138,7 +138,7 @@
       "text": "High performance grid-forming inverters are fully aligned with these requirements. For example, all of SMA's BESS solutions routinely meet applicable NERC reliability standards and OATT provisions, providing reliable support for consultants and system operators.",
       "concern": "SMA's BESS and inverter products already meet NERC and OATT reliability requirements",
       "bins": [
-        "topic:nerc-compliance"
+        "topic:nerc-standards"
       ],
       "page": 5
     }
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "key": "topic:nerc-compliance",
+      "key": "topic:nerc-standards",
       "name": "NERC and OATT compliance of BESS",
       "stance": "support",
       "description": "SMA asserts that its grid-forming inverter and BESS products already meet NERC reliability standards and OATT provisions, positioning them as ready-to-deploy solutions under any new FERC reliability requirements.",

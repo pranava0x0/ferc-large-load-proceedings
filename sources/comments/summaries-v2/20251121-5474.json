@@ -12,7 +12,7 @@
       "concern": "Data center diversity means one-size-fits-all rules risk inadvertent discrimination",
       "bins": [
         "pr:colo",
-        "topic:nondiscrimination"
+        "topic:non-discrimination"
       ],
       "page": null
     },
@@ -21,7 +21,7 @@
       "text": "We urge the Commission to exercise caution to avoid instituting inadvertent discrimination between data center types and business models as it considers large load interconnection rules.",
       "concern": "Request for non-discriminatory rules across data center types",
       "bins": [
-        "topic:nondiscrimination"
+        "topic:non-discrimination"
       ],
       "page": 4
     },
@@ -136,7 +136,7 @@
       "bins": [
         "pr:colo",
         "pr:proximate",
-        "topic:nondiscrimination"
+        "topic:non-discrimination"
       ],
       "page": 7
     }
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "key": "topic:nondiscrimination",
+      "key": "topic:non-discrimination",
       "name": "Non-Discriminatory Rules Across DC Types",
       "stance": "support",
       "description": "Equinix repeatedly stresses that the Commission must avoid inadvertent discrimination between data center types and business models. Rules calibrated only for hyperscale AI training campuses would disadvantage colocation facilities with high-uptime requirements and urban locations.",

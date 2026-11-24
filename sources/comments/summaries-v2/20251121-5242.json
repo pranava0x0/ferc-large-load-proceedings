@@ -145,7 +145,7 @@
       "bins": [
         "aq:expedited",
         "pr:study",
-        "topic:nerc-compliance"
+        "topic:nerc-standards"
       ],
       "page": 23
     }
@@ -286,7 +286,7 @@
       ]
     },
     {
-      "key": "topic:nerc-compliance",
+      "key": "topic:nerc-standards",
       "name": "Full NERC Standard Compliance",
       "stance": "support",
       "description": "The filers support requiring all utilities and PJM to abide by NERC Reliability Standards and guidelines for large load interconnection, and ask that any deviations be disclosed to stakeholders with an explanation.",

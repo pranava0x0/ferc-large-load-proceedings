@@ -1,36 +1,11 @@
 # backlog.md
 
-- **`data.js` is now the largest blocking asset (112 KB gzip of 178 KB).** (medium) With `comments-data.js` lazy
-  since 2026-11-02, the timeline and Discourse bodies dominate first load. Splitting them out the same way would
-  roughly halve blocking weight again, but every tab reads `D.SOURCES`, so it needs a design (a core file plus
-  per-tab files), not a move. Measure with the throttled pass in uat.md before and after.
-- **Read every docket in one in-page call.** (low) eLibrary's sheet comes from a POST to
-  `/eLibraryWebAPI/api/Docket/GetSingleDocketSheet` that works inside the logged-in tab. Capture the request body
-  once (hook XHR, then run a new docket search in the SPA) and `tools/elibrary-sweep.js` could fetch all ~20
-  sheets in one call instead of ~20 navigations.
-
-- **Automate the `-001` and companion-docket sweep.** (medium) `tools/elibrary-sweep.js` takes one docket per
-  paste. The Sep 21 undercount (five orders, not four; issues.md 2026-10-19) happened on a sweep that had the
-  `-001` rule but applied it by hand. Give the extractor a list (`EL26-67-000`, `EL26-67-001`, …, `ER26-3380`,
-  `EL26-108`, `ER26-3515`) and have it navigate and accumulate across all of them in one run.
+- **`core-data.js` is the largest blocking asset (107 KB gzip, 374 KB raw; checked 2026-11-23).** (medium)
+  `build-delivery-data` already split the News bodies into lazy `news-data.js`, and comments and the record tier
+  load lazily. Every tab still reads `D.SOURCES` from the core file, so a further cut (timeline bodies, sources
+  per tab) needs a design, not a move. Measure with the throttled pass in uat.md before and after.
 
 - **Watch the Nov 30 comment filings in ER26-3515-002 and ER27-454-000**, any ER26-3515-001 rehearing action and any actual withdrawal in ER27-330. PJM’s registry compliance and Ohio’s Nov 9 rehearing request are now on Filings. These are separate from the Nov 16 show cause deadline.
-
-- **Consolidate the emergent `topic:` vocabulary.** (medium) 673 distinct topic bins across 268 files,
-  with obvious near-synonyms: `topic:state-authority` (7) vs `topic:state-jurisdiction` (3),
-  `topic:tariff-transparency` (12) vs `topic:transparency` (5) vs `topic:queue-transparency` (4),
-  `topic:cost-allocation` (5) vs `topic:cost-causation` (3). The by-issue index only surfaces topics
-  appearing in 3+ letters, so the long tail is invisible to readers while still fragmenting the ones
-  that are surfaced. Merge the synonym clusters into a controlled list, keep genuinely one-off topics
-  as they are, and record the mapping so the merge is auditable.
-
-- **Teach `check-staleness.mjs` to catch expired FRAMING, not just expired dates.** (medium) It flags a
-  passed `kind: "deadline"` event, but not an event whose date is still in the future while its subject
-  has already resolved. Two shipped that way this session: an abeyance event written in the conditional
-  ("any abeyance would push the deadline later") months after all six were granted, and a response
-  deadline whose derived date the abeyance orders had replaced. A cheap heuristic: flag any event whose
-  body contains conditional markers ("would", "if requested", "could", "is expected to") when a later
-  event on the same track describes the same subject as done.
 
 - **idea (2026-07-14, LOW) — let the "from record to rule" strip collapse.** UAT: the strip is always
   expanded (~260px, ~0.3 viewport) above the stance groups, so a reader who just wants the letters scrolls
@@ -272,8 +247,6 @@ Recommended next steps, in order:
   keeps generating docket-level developments (protests, a FERC order), promote it to a sixth track
   with its own venue and next-step clock.
 
-- **Medium** · Make `tools/extract-abeyance-docs.py` merge into the existing manifest instead of regenerating it, and add the `-001` sub-dockets to `tools/elibrary-sweep.js` (2026-10-08).
-
 ## From the 2026-11-09 refresh (Filings and Commissioners tabs)
 
 - **High:** validate and ship the Nov 2 to Nov 9 news findings (Rosner at DERVOS Nov 5, NERC's computational-load
@@ -296,10 +269,11 @@ Recommended next steps, in order:
 - **Medium (2026-11-21): read the remaining positional filings outside the watched proceedings.** `node tools/curation-queue.mjs`
   counts them: PJM co-location 147 of 148 unread, governance 75, registry 59, backstop 48, MISO IRR 8, ZGIA 5, ATC 5.
   Mostly settled history; work in chunks per proceeding with the same position format.
-- **Low (2026-11-21): add a stance to the older positions outside MISO LARS.** Every LARS comment and protest
-  now carries a read stance (2026-11-21). Positions in other proceedings written before stances existed still
-  get their row's side from tenets.json or the title; where a stance is added, the build stops if tenets.json
-  disagrees.
+- **Low (2026-11-23): three positions need a human call on their stance.** Constellation's and FirstEnergy's
+  rehearing requests of the Sep 29 backstop order (ER26-3380-001) seek rehearing of specific determinations,
+  which reads as "opposes in part", but tenets.json labels both "against". Pick one and set both files. Rep.
+  Spartz's moratorium letter fits none of the stances. 19 other unstanced entries are operators' own filings
+  or point at FERC's document rather than the speaker's, and should stay unstanced.
 - **Won't fix (2026-11-21): banning "unlock" and "comprehensive" in comment summaries.** About 30 summaries use
   them, nearly all in the commenter's own sense ("a comprehensive final rule", "unlock 76 GW"). The register
   lint in validate-summaries keeps its narrower list.

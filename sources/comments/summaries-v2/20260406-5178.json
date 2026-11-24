@@ -150,7 +150,7 @@
       "bins": [
         "aq:jurisdiction",
         "pr:flex",
-        "topic:state-jurisdiction"
+        "topic:state-authority"
       ],
       "page": 7
     }
@@ -312,7 +312,7 @@
       ]
     },
     {
-      "key": "topic:state-jurisdiction",
+      "key": "topic:state-authority",
       "name": "Avoid Jurisdictional Conflict",
       "stance": "support",
       "description": "CPP's unanimous state regulator support demonstrates that regional processes can bridge the federal-state divide. An overbroad FERC rule risks creating jurisdictional conflicts that stakeholder-designed processes avoid.",

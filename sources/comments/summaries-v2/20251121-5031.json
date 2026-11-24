@@ -82,7 +82,7 @@
       "concern": "Standardized, transparent queue procedures are needed to prevent discriminatory utility discretion",
       "bins": [
         "pr:study",
-        "topic:queue-transparency"
+        "topic:transparency"
       ],
       "page": null
     },
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "key": "topic:queue-transparency",
+      "key": "topic:transparency",
       "name": "Transparent Queue Reporting",
       "stance": "support",
       "description": "Verrus calls for utilities to publicly post queue timelines and outcomes and to prohibit selective acceleration or discretionary reprioritization. Public accountability in queue management is presented as a prerequisite to non-discriminatory access.",

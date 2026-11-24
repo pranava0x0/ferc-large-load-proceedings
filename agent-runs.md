@@ -716,3 +716,11 @@ Main loop (Claude Opus 5.5): LARS side precedence, CSS dedupe checked by compute
 leftovers, em-dash test, `#filings/q=`, bin-name casing (66 renames + validator), word-start search, backlog prune
 (44 done or stale entries removed). Several backlog items were already done in code and only the entry was stale:
 check the code before building.
+
+## 2026-11-23 · Backlog sweep 2 (branch backlog-sweep-2)
+| Agent | Model | Task | Tokens | Tool uses | Result |
+|---|---|---|---|---|---|
+| general-purpose | Claude Sonnet 5.5 | Stances for 33 older positions | 154,386 | 26 | 11 stanced, 22 skipped with reasons; 3 tenets disagreements surfaced, not forced |
+
+Main loop (Claude Opus 5.5): topic merges (mapping + tool + test), dated "not yet" check in check-staleness,
+Morongo stance, backlog prune. Three more backlog entries were already done in code.

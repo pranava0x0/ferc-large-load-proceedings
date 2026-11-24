@@ -112,8 +112,8 @@ if (!BRIEF) {
   console.log(`\n  emergent topic: bins: ${soft.topicBins.size} distinct across ${files.length} files`);
   const topics = [...soft.topicBins].sort((a, b) => b[1] - a[1]);
   for (const [n, c] of topics.slice(0, 10)) console.log(`     ${String(c).padStart(3)}x  ${n}`);
-  console.log(`     (near-synonyms here are the sprawl signal: state-authority vs state-jurisdiction,`);
-  console.log(`      tariff-transparency vs transparency vs queue-transparency)`);
+  console.log(`     (near-synonyms here are the sprawl signal: add them to sources/comments/topic-merges.json`);
+  console.log(`      and run node tools/merge-topics.mjs)`);
 }
 
 console.log(`\n${defects} item(s) in the should-be-zero set.` +

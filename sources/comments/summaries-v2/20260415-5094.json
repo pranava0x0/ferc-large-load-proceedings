@@ -132,7 +132,7 @@
       "text": "The Commission could also require utilities to disclose such disaggregated rates. Transparency would reveal to the public the costs of delivering power to large loads.",
       "concern": "Public disclosure of disaggregated rates would expose the true cost burden of large-load service",
       "bins": [
-        "topic:tariff-transparency"
+        "topic:transparency"
       ],
       "page": 13
     },
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "key": "topic:tariff-transparency",
+      "key": "topic:transparency",
       "name": "Mandatory disclosure of cost allocation",
       "stance": "support",
       "description": "The filing proposes that the Commission require utilities to publicly disclose disaggregated large-load transmission rates so that the actual cost burden imposed by large loads is visible to the public.",

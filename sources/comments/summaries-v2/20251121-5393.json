@@ -124,7 +124,7 @@
       "concern": "Existing projects in progress should be grandfathered under current rules",
       "bins": [
         "pr:study",
-        "topic:transition-grandfathering"
+        "topic:grandfathering"
       ],
       "page": 14
     },
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "key": "topic:transition-grandfathering",
+      "key": "topic:grandfathering",
       "name": "Grandfather In-Progress Projects",
       "stance": "support",
       "description": "Alliant Energy urges the Commission to protect projects already in the formal interconnection process from having to restart under new rules. Restarting would cause delays, drive up costs, and undermine customer confidence, while grandfathering preserves good-faith investments made under current procedures.",

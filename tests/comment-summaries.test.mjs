@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { validate, VOCAB, binCaseCollisions } from "../tools/validate-summaries.mjs";
 import { buildPageIndex, pageForQuote } from "../tools/stamp-comment-pages.mjs";
+import { mergeOne, MERGES } from "../tools/merge-topics.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(here, "..");
@@ -26,6 +27,14 @@ test("every v2 summary is valid: verbatim quotes, controlled vocab, lenses = uni
 
 test("a bin name has one spelling across the corpus (casing drift splits one position in two)", () => {
   assert.deepEqual(binCaseCollisions(), []);
+});
+
+test("merged topic keys stay merged (sources/comments/topic-merges.json)", () => {
+  assert.ok(Object.keys(MERGES).length >= 20);
+  for (const [from, to] of Object.entries(MERGES)) assert.ok(!MERGES[to], `${from} -> ${to} chains into another merge`);
+  const files = readdirSync(DIR).filter((f) => f.endsWith(".json"));
+  assert.ok(files.length > 0);
+  for (const f of files) assert.equal(mergeOne(JSON.parse(readFileSync(join(DIR, f), "utf8"))).renamed, 0, `${f} carries a topic key that should be merged: node tools/merge-topics.mjs`);
 });
 
 test("summary corpus meets its count floor (append-only — never silently drops)", () => {

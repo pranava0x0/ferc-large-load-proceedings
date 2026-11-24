@@ -131,7 +131,7 @@
       "bins": [
         "aq:expedited",
         "pr:study",
-        "topic:transition-protection"
+        "topic:transition-period"
       ],
       "page": 26
     },
@@ -284,7 +284,7 @@
       ]
     },
     {
-      "key": "topic:transition-protection",
+      "key": "topic:transition-period",
       "name": "Grandfathering for Existing Projects",
       "stance": "support",
       "description": "Vistra requests that any new pro forma procedures apply prospectively only, that customers in existing study processes be allowed to continue under current rules, and that interconnection agreements filed before the final rule's effective date not be rejected for failing to conform to new procedures -- mirroring the Order No. 2003 transition approach.",

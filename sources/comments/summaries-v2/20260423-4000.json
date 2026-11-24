@@ -33,7 +33,7 @@
       "bins": [
         "pr:cost",
         "aq:protection",
-        "topic:cost-responsibility"
+        "topic:cost-allocation"
       ],
       "page": 1
     },
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "key": "topic:cost-responsibility",
+      "key": "topic:cost-allocation",
       "name": "Tech company pay-their-own-way pledges",
       "stance": "neutral",
       "description": "The Senator asks FERC whether tech company pledges to self-fund grid infrastructure are credible and enforceable, signaling skepticism that voluntary commitments are sufficient.",

@@ -78,7 +78,7 @@
       "bins": [
         "aq:jurisdiction",
         "pr:cost",
-        "topic:rulemaking-pace"
+        "topic:rulemaking-timeline"
       ],
       "page": 10
     },
@@ -87,7 +87,7 @@
       "text": "this ANOPR should be used to refine the proposals and prompts for a subsequent Notice of Proposed Rulemaking (\"NOPR\"), providing sufficient time for input from utilities, grid operators, customers, and other stakeholder groups.",
       "concern": "ANOPR should feed a full NOPR, not rush to final action by April 2026",
       "bins": [
-        "topic:rulemaking-pace"
+        "topic:rulemaking-timeline"
       ],
       "page": 10
     },
@@ -97,7 +97,7 @@
       "concern": "Expedited process for jurisdictional expansion is unreasonable",
       "bins": [
         "aq:jurisdiction",
-        "topic:rulemaking-pace"
+        "topic:rulemaking-timeline"
       ],
       "page": 12
     },
@@ -145,7 +145,7 @@
       "concern": "Queue transparency protects ratepayers from inflated demand-driven overbuilds",
       "bins": [
         "pr:cost",
-        "topic:queue-transparency"
+        "topic:transparency"
       ],
       "page": 17
     },
@@ -155,7 +155,7 @@
       "concern": "Public posting of queue, cost responsibility, and consumer cost impact reports",
       "bins": [
         "pr:cost",
-        "topic:queue-transparency"
+        "topic:transparency"
       ],
       "page": 18
     },
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "key": "topic:rulemaking-pace",
+      "key": "topic:rulemaking-timeline",
       "name": "Slower Process, Full NOPR Needed",
       "stance": "oppose",
       "description": "The CPUC opposes rushing to final action by April 2026 and argues the ANOPR should lead to a full NOPR with adequate comment periods. An expedited process for a jurisdiction-expanding rule is unreasonable under 42 U.S.C. 7173(b) and the APA.",
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "key": "topic:queue-transparency",
+      "key": "topic:transparency",
       "name": "Public Queue Posting Requirements",
       "stance": "support",
       "description": "The CPUC supports public posting of all large load interconnection requests, cost responsibility determinations, and annual consumer cost impact reports. Queue transparency prevents load shopping, queue gaming, and inflated demand projections that inflate wholesale rates and transmission costs.",

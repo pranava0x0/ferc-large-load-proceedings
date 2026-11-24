@@ -21,7 +21,7 @@
       "concern": "FERC action must not override state decisions on retail contracting, cost assessment, or retail wheeling",
       "bins": [
         "aq:jurisdiction",
-        "topic:state-retail-authority"
+        "topic:state-authority"
       ],
       "page": 1
     },
@@ -51,7 +51,7 @@
       "bins": [
         "aq:jurisdiction",
         "pr:cost",
-        "topic:state-retail-authority"
+        "topic:state-authority"
       ],
       "page": 4
     },
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "key": "topic:state-retail-authority",
+      "key": "topic:state-authority",
       "name": "Preserve state retail regulatory authority",
       "stance": "support",
       "description": "NARUC emphasizes that state commissions must retain authority over retail contracting practices, cost assessment to retail load, and determinations about retail access. Federal action that circumvents these state decisions would harm all customer classes, not only large loads.",

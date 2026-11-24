@@ -89,7 +89,7 @@
       "concern": "Queue and study process transparency is currently inadequate",
       "bins": [
         "pr:study",
-        "topic:queue-transparency"
+        "topic:transparency"
       ],
       "page": 3
     },
@@ -99,7 +99,7 @@
       "concern": "Coordination between transmission providers and planners can reduce duplicative studies",
       "bins": [
         "pr:study",
-        "topic:queue-transparency"
+        "topic:transparency"
       ],
       "page": 3
     },
@@ -109,7 +109,7 @@
       "concern": "Transmission providers should be required to disclose queue status, study assumptions, and cost estimates",
       "bins": [
         "pr:study",
-        "topic:queue-transparency"
+        "topic:transparency"
       ],
       "page": null
     }
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "key": "topic:queue-transparency",
+      "key": "topic:transparency",
       "name": "Queue and Study Transparency",
       "stance": "support",
       "description": "Switch calls for transmission providers to publicly disclose queue status, study assumptions, and cost estimates. The company notes the current process lacks this transparency and that better coordination between transmission providers and regional planners would reduce duplicative work.",

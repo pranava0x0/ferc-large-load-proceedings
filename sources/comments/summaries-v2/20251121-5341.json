@@ -33,7 +33,7 @@
       "text": "Too often, this process lacks transparency, with limited visibility into how queues are managed or how decisions are made, further eroding confidence in the system.",
       "concern": "Lack of transparency in utility interconnection queue management undermines confidence",
       "bins": [
-        "topic:queue-transparency"
+        "topic:transparency"
       ],
       "page": 6
     },
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "key": "topic:queue-transparency",
+      "key": "topic:transparency",
       "name": "Interconnection Queue Transparency",
       "stance": "neutral",
       "description": "Vantage describes the current interconnection queue process as lacking transparency, with limited visibility into how queues are managed and decisions made, which erodes confidence in the system among data center developers.",

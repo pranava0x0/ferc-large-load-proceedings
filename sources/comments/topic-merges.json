@@ -1,0 +1,33 @@
+{
+ "note": "Emergent topic: bins that name the same issue, merged into one key so the by-issue index counts them together. Applied by tools/merge-topics.mjs; each summary keeps its own bin names and descriptions. A merge that would put two bins on one key in the same letter is skipped for that letter and reported.",
+ "merges": {
+  "topic:federalism": "topic:cooperative-federalism",
+  "topic:federal-state-coordination": "topic:cooperative-federalism",
+  "topic:state-jurisdiction": "topic:state-authority",
+  "topic:state-retail-authority": "topic:state-authority",
+  "topic:jurisdiction": "topic:ferc-jurisdiction",
+  "topic:ferc-authority": "topic:ferc-jurisdiction",
+  "topic:state-federal-jurisdiction": "topic:ferc-jurisdiction",
+  "topic:tariff-transparency": "topic:transparency",
+  "topic:queue-transparency": "topic:transparency",
+  "topic:study-transparency": "topic:transparency",
+  "topic:cost-causation": "topic:cost-allocation",
+  "topic:cost-responsibility": "topic:cost-allocation",
+  "topic:consumer-protection": "topic:ratepayer-protection",
+  "topic:customer-affordability": "topic:ratepayer-protection",
+  "topic:nerc-compliance": "topic:nerc-standards",
+  "topic:nerc-reliability": "topic:nerc-standards",
+  "topic:regional-variation": "topic:regional-flexibility",
+  "topic:nondiscrimination": "topic:non-discrimination",
+  "topic:transition": "topic:transition-period",
+  "topic:transition-mechanism": "topic:transition-period",
+  "topic:transition-plan": "topic:transition-period",
+  "topic:transition-protection": "topic:transition-period",
+  "topic:transition-grandfathering": "topic:grandfathering",
+  "topic:rulemaking-pace": "topic:rulemaking-timeline",
+  "topic:crediting-design": "topic:crediting-mechanism",
+  "topic:grid-enhancing-technologies": "topic:advanced-transmission-tech",
+  "topic:proactive-transmission-planning": "topic:transmission-planning",
+  "topic:national-competitiveness": "topic:ai-competitiveness"
+ }
+}

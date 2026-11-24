@@ -73,7 +73,7 @@
       "bins": [
         "aq:hybridrights",
         "pr:flex",
-        "topic:nerc-reliability"
+        "topic:nerc-standards"
       ],
       "page": 5
     },
@@ -95,7 +95,7 @@
       "bins": [
         "aq:hybridrights",
         "pr:flex",
-        "topic:nerc-reliability"
+        "topic:nerc-standards"
       ],
       "page": 6
     },
@@ -106,7 +106,7 @@
       "bins": [
         "aq:protection",
         "pr:flex",
-        "topic:nerc-reliability"
+        "topic:nerc-standards"
       ],
       "page": 8
     },
@@ -117,7 +117,7 @@
       "bins": [
         "aq:protection",
         "pr:flex",
-        "topic:nerc-reliability"
+        "topic:nerc-standards"
       ],
       "page": 8
     },
@@ -127,7 +127,7 @@
       "concern": "netting conflicts with ANOPR's own reliability principle as well as NERC TPL-001",
       "bins": [
         "aq:hybridrights",
-        "topic:nerc-reliability"
+        "topic:nerc-standards"
       ],
       "page": 7
     },
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "key": "topic:nerc-reliability",
+      "key": "topic:nerc-standards",
       "name": "NERC Standards Prohibit Netting",
       "stance": "oppose",
       "description": "FirstEnergy argues that NERC TPL-001 and PRC-012-2 together require separate contingency testing of load and generation and require evaluating protection system failures. Netting short-circuits both requirements and conflicts with ANOPR principle fourteen.",

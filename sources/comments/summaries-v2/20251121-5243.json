@@ -83,7 +83,7 @@
       "concern": "Siloed reactive planning cannot deliver infrastructure fast enough to support AI and manufacturing growth",
       "bins": [
         "pr:study",
-        "topic:proactive-transmission-planning"
+        "topic:transmission-planning"
       ],
       "page": 4
     },
@@ -94,7 +94,7 @@
       "bins": [
         "pr:study",
         "pr:colo",
-        "topic:proactive-transmission-planning"
+        "topic:transmission-planning"
       ],
       "page": 5
     },
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "key": "topic:proactive-transmission-planning",
+      "key": "topic:transmission-planning",
       "name": "Proactive scenario-based planning",
       "stance": "support",
       "description": "AEP calls for replacing reactive, one-off transmission upgrade studies with proactive scenario-based planning that forecasts generation and load across the life of transmission investments. This would reduce the need for network upgrade studies, lower costs, and speed interconnection for both generators and large loads.",

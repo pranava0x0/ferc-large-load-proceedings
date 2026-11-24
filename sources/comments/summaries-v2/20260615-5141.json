@@ -103,7 +103,7 @@
       "concern": "JCA argue FERC can adopt the Expansion Rate Policy under existing authority via a special-circumstances exception",
       "bins": [
         "topic:higher-of-policy-limits",
-        "topic:ferc-authority",
+        "topic:ferc-jurisdiction",
         "topic:special-circumstances"
       ],
       "page": 11
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "key": "topic:ferc-authority",
+      "key": "topic:ferc-jurisdiction",
       "name": "No Statutory Change Required",
       "stance": "support",
       "description": "JCA contend that adopting the Expansion Rate Policy would require neither a statutory change nor a novel assertion of agency authority, supporting FERC's ability to act promptly.",

@@ -95,7 +95,7 @@
       "concern": "Commission should weigh customer affordability impacts before finalizing rate design",
       "bins": [
         "pr:cost",
-        "topic:customer-affordability"
+        "topic:ratepayer-protection"
       ],
       "page": 6
     },
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "key": "topic:customer-affordability",
+      "key": "topic:ratepayer-protection",
       "name": "Retail customer affordability",
       "stance": "support",
       "description": "WIRES emphasizes that customer affordability is a central concern and that any cost allocation framework should be scrutinized for bill impacts on residential and other retail customers before adoption.",

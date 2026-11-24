@@ -138,7 +138,7 @@
       "concern": "Protections should apply to projects already in the interconnection queue, not just future filings.",
       "bins": [
         "pr:study",
-        "topic:transition-mechanism"
+        "topic:transition-period"
       ],
       "page": 3
     },
@@ -149,7 +149,7 @@
       "bins": [
         "pr:cost",
         "aq:upgradecost",
-        "topic:crediting-design"
+        "topic:crediting-mechanism"
       ],
       "page": 19
     }
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "key": "topic:transition-mechanism",
+      "key": "topic:transition-period",
       "name": "Apply Rules to In-Queue Projects",
       "stance": "support",
       "description": "Buckeye supports applying cost protection rules to large load interconnections already in the study queue, not just future filings, because transmission investment to serve those loads is already underway and creating cost-shift risk today.",
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "key": "topic:crediting-design",
+      "key": "topic:crediting-mechanism",
       "name": "Crediting Must Differ from Generator Model",
       "stance": "support",
       "description": "Buckeye notes that generator-interconnection crediting was designed only as a financing mechanism, not to protect other customers from stranded cost risks. Any crediting mechanism for large loads must be structured differently to ensure credits paid back to data centers do not shift costs onto other wholesale customers.",

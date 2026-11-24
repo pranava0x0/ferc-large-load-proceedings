@@ -84,7 +84,7 @@
       "bins": [
         "pr:cost",
         "pr:proximate",
-        "topic:cost-causation"
+        "topic:cost-allocation"
       ],
       "page": 14
     },
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "key": "topic:cost-causation",
+      "key": "topic:cost-allocation",
       "name": "Cost follows the siting decision",
       "stance": "support",
       "description": "The filer argues that the party whose siting decision creates the need for network upgrades should bear those costs. Stiff-point qualification and demand caps both implement this principle, replacing the current model where upgrade costs are socialized across all ratepayers regardless of who caused them.",

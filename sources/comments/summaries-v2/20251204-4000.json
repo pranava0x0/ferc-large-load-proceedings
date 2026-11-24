@@ -12,7 +12,7 @@
       "concern": "Cost-shifting from large loads onto residential ratepayers must be prevented",
       "bins": [
         "pr:cost",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 2
     },
@@ -22,7 +22,7 @@
       "concern": "Consumer prices should be the primary criterion for evaluating new interconnection rules",
       "bins": [
         "pr:cost",
-        "topic:consumer-protection"
+        "topic:ratepayer-protection"
       ],
       "page": 2
     },
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "key": "topic:consumer-protection",
+      "key": "topic:ratepayer-protection",
       "name": "Ratepayer Equity for Families",
       "stance": "support",
       "description": "The filer grounds the cost argument in constituent harm: New York residents have seen sharp bill increases, and working families and seniors on fixed incomes are already under pressure. He contends these households should not cross-subsidize large commercial loads.",
